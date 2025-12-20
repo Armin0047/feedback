@@ -1,0 +1,2 @@
+# feedback
+- Customer feedback and testimonials for projects developed and supported." (بازخوردها و نامه‌های قدردانی مشتریان از پروژه‌های توسعه داده‌شده و پشتیبانی‌شده )
