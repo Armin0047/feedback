@@ -84,6 +84,22 @@ section {
   background-color: #005f8d;
 }
 
+
+.btn-email {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0077b5; /* آبی شبیه لینکدین */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.btn-email:hover {
+  background-color: #005f8d;
+}
+
 /* واکنش‌گرا */
 @media (max-width: 992px) {
   .letters-grid {
