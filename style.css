@@ -47,6 +47,7 @@ section {
   margin-top: 20px;
 }
 
+
 .letter-card {
   background: #fff;
   border: 1px solid #ccc;
@@ -54,8 +55,16 @@ section {
   padding: 15px;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
+
+  /* برای هم‌ترازی محتوا */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* ارتفاع ثابت برای مرتب بودن ردیف‌ها */
+  min-height: 400px;
 }
+
 
 .letter-card:hover {
   transform: translateY(-5px);
@@ -67,10 +76,11 @@ section {
   margin-bottom: 10px;
 }
 
+
+
 /* دکمه‌ها */
 .btn {
   display: inline-block;
-  margin: 5px;
   padding: 8px 15px;
   background-color: #0077b5;
   color: #fff;
@@ -80,9 +90,11 @@ section {
   transition: background-color 0.2s ease;
 }
 
+
 .btn:hover {
   background-color: #005f8d;
 }
+
 
 
 .btn-email {
@@ -100,6 +112,14 @@ section {
   background-color: #005f8d;
 }
 
+.card-buttons {
+  margin-top: auto; /* دکمه‌ها همیشه پایین کارت */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+
 /* واکنش‌گرا */
 @media (max-width: 992px) {
   .letters-grid {
@@ -112,3 +132,4 @@ section {
     grid-template-columns: 1fr;
   }
 }
+
